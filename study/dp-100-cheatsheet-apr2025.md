@@ -1,5 +1,4 @@
-Perfect — here’s your **updated, April 2025‑aligned DP‑100 one‑page cheat sheet** in Markdown, reflecting the new skills measured and generative AI additions from Microsoft’s latest [study guide](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/dp-100).  
-You can drop this straight into your repo as `dp-100-cheatsheet-apr2025.md`.
+
 
 ---
 
