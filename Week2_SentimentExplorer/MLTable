@@ -1,0 +1,40 @@
+paths:
+  - file: ./foodpanda_processed.parquet
+transformations:
+  - read_parquet: {}
+  - convert_column_types:
+      - columns: [StoreId]
+        column_type: string
+      - columns: [createdAt]
+        column_type: string   # changed from datetime
+      - columns: [text]
+        column_type: string
+      - columns: [isAnonymous]
+        column_type: boolean
+      - columns: [replies]
+        column_type: string
+      - columns: [likeCount]
+        column_type: float
+      - columns: [isLiked]
+        column_type: boolean
+      - columns: [overall]
+        column_type: int
+      - columns: [restaurant_food]
+        column_type: int
+      - columns: [rider]
+        column_type: float
+      - columns: [likeCount_capped]
+        column_type: float
+      - columns: [replies_count]
+        column_type: int
+      - columns: [sentiment]
+        column_type: string
+      - columns: [created_year]
+        column_type: int
+      - columns: [created_month]
+        column_type: int
+      - columns: [created_dow]
+        column_type: int
+      - columns: [created_hour]
+        column_type: int
+
